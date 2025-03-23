@@ -1,6 +1,6 @@
 # Scanet 🔍  
 
-Scanet es una herramienta de escaneo de redes, dispositivos, puertos y servicios, desarrollada completamente en Python. Permite detectar redes conectadas, analizar puertos abiertos en una IP específica y generar reportes en formato `.txt`.  
+Scanet es una herramienta de escaneo de redes, dispositivos, puertos y servicios, desarrollada completamente en Python. Permite detectar las redes a las que esta conectado el usuario, analizar un rango de puertos abiertos en una IP específica, escaneo de puertos comunes y generar reportes en formato `.txt`.  
 
 ## 🚀 **Características:**  
 - Escaneo de redes disponibles.  
@@ -23,8 +23,4 @@ Ejecuta el script con:
 python scanet.py
 ```
 
-Luego, sigue las instrucciones en pantalla para seleccionar el tipo de escaneo que deseas realizar.  
-
-## 📌 **Créditos:**  
-- 📌 Creado por **Daniel Escamilla**  
-- 🔗 GitHub: [https://github.com/daniescamilla](https://github.com/daniescamilla)
+Luego, sigue las instrucciones en pantalla del menú interactuvo para seleccionar el tipo de escaneo que deseas realizar.  
