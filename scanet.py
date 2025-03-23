@@ -40,6 +40,10 @@ def pedir_ip():
             print("La dirección IP no es válida. Intenta nuevamente.")
 
 def validar_port(port):
+    if port.isdigit():
+        port = int(port)
+    else:
+        return False
     if 1 <= int(port) <= 65535:
         return int(port)
     else:
@@ -161,7 +165,7 @@ def escaneo_comun(target_ip):
 def generar_txt(target_ip, open_ports):
     print("\n[+] Generando archivo txt...\n")
     with open("scanet.txt", "w") as f:
-        f.write("[+] Resgistro del escaneo al dispositivo con dirección IP: " + target_ip + "\n")
+        f.write("[+] Registro del escaneo al dispositivo con dirección IP: " + target_ip + "\n")
         for port, service in open_ports:
             f.write(f"Puerto {port}: {service}\n")
     print("[+] Archivo generado con éxito!")
