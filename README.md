@@ -50,12 +50,8 @@ Luego, sigue las instrucciones en pantalla del menú interactuvo para selecciona
         4) Generar archivo .txt con escaneo de puertos comunes de la dirección IP que introduzcas.
         5) Salir del programa.
 
-### En la primera opción realizará directamente el escaneo de las redes.
-
-### En la segunda opción deberás introducir una dirección IP como "192.168.1.1" y un primer y último puerto para determinar el rango dónde se realizará el escaneo (1-65535).
-
-### La tercera opción pide los mismos parámetros que la segunda y también muestra el escaneo por la terminal solo que también te generará un .txt a modo de resumen.
-
-### La cuarta opción solo deberás ingresar la dirección IP ya que los puertos comunes están previamente definidos en el código.
-
-### La quinta es simplemente para salir del programa aunque tambien puedes hacerlo en cualquier momento con Ctrl + C.
+- En la primera opción realizará directamente el escaneo de las redes.
+- En la segunda opción deberás introducir una dirección IP como "192.168.1.1" y un primer y último puerto para determinar el rango dónde se realizará el escaneo (1-65535).
+- La tercera opción pide los mismos parámetros que la segunda y también muestra el escaneo por la terminal solo que también te generará un .txt a modo de resumen.
+- La cuarta opción solo deberás ingresar la dirección IP ya que los puertos comunes están previamente definidos en el código.
+- La quinta es simplemente para salir del programa aunque tambien puedes hacerlo en cualquier momento con Ctrl + C.
